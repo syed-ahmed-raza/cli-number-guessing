@@ -1,21 +1,24 @@
 {
-  "name": "m4-use-cli-number-guessing",
-  "version": "2.0.1",
+  "name": "@ahmedraza_2003/num-guessing-game",
+  "version": "2.0.4",
   "description": "This is Cli Number Guessing Game",
   "main": "index.js",
   "type": "module",
-
+  "publishConfig": {
+    "access": "public"
+  },
   "bin": "guessing-game.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "@types/inquirer": "^9.0.7",
     "@types/node": "^20.11.30"
   },
   "dependencies": {
+    "@ahmedraza_2003/num-guessing-game": "^2.0.2",
     "inquirer": "^9.2.16"
   }
 }
